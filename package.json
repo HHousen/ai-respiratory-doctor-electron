@@ -8,6 +8,8 @@
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
     "dist": "yarn compile && electron-builder",
+    "dist-wl": "yarn compile && electron-builder -p always -wl",
+    "dist-m": "yarn compile && electron-builder -p always -m",
     "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
   "keywords": [],

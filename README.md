@@ -1,5 +1,6 @@
 ![AI Respiratory Doctor Logo](build/icon.png)
 # AI Respiratory Doctor Desktop App
+[![Build Status](https://travis-ci.org/HHousen/ai-respiratory-doctor-electron.svg?branch=master)](https://travis-ci.org/HHousen/ai-respiratory-doctor-electron)
 > A desktop app built with Electron that mimics the AI Respiratory Doctor web app.
 
 This app uses [electron](https://electronjs.org/), a self-contained python [flask](https://flask.palletsprojects.com/en/1.1.x/) API, and [pytorch](https://pytorch.org/)/[fasiai](https://docs.fast.ai/) to compute the probabilities of certain diseases in chest X-Rays using machine learning.
