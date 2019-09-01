@@ -1,0 +1,80 @@
+@import "materialize/materialize";
+
+// @import "material-design-icons.css";
+
+// $material-design-icons-font-directory-path: '~material-design-icons-iconfont/dist/fonts/';
+// @import '~material-design-icons-iconfont/src/material-design-icons';
+
+// @import url('/node_modules/material-design-icons-iconfont/dist/material-design-icons.css');
+// @import '~material-design-icons-iconfont/dist/material-design-icons.css';
+
+
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.page-footer {
+  flex-shrink: 0;
+}
+
+.dropzone {
+  min-height: 150px;
+  border: 2px solid rgba(0,0,0,0.3);
+  background: white;
+  padding: 20px 20px;
+}
+.dropzone.dz-clickable,
+.dropzone.dz-clickable .dz-message {
+  cursor: pointer;
+}
+.dropzone .dz-message {
+  text-align: center;
+  margin: 2em 0;
+}
