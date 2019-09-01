@@ -7,6 +7,8 @@ This app uses [electron](https://electronjs.org/), a self-contained python [flas
 
 Asset bundling is handled by webpack through [electron-webpack](https://github.com/electron-userland/electron-webpack) and building/compiling is done with [electron-builder](https://github.com/electron-userland/electron-builder). The user interfact was built using the Materialize-css framework. The original template this app was based on is [electron-webpack-quick-start](https://github.com/electron-userland/electron-webpack-quick-start).
 
+Additionally, [Travis CI](https://travis-ci.org/) handles automatic building of the application on every commit.
+
 Original App Website: <https://ai-respiratory-doctor.herokuapp.com/>
 
 ## Getting Started
