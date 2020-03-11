@@ -20,6 +20,7 @@ These pieces of software need to be installed on your system in order for the ap
 * Fastai
 * Flask
 * Flask-Cors
+
 Additionally, use the [Yarn](https://yarnpkg.com/) Package Manager instead of NPM. 
 
 ### Installation (Development Setup)
