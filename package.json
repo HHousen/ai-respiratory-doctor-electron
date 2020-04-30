@@ -18,7 +18,7 @@
     "email": "hayden@haydenhousen.com"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "materialize-css": "^1.0.0",
     "source-map-support": "^0.5.12",
     "sweetalert2": "^8.17.1"
